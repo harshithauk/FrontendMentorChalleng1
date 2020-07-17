@@ -1,0 +1,191 @@
+body{
+  margin: 0;
+  color:white;
+  font-family: Raleway;
+
+}
+.bg{
+  background-color: hsl(229, 57%, 11%);
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.bg-img1{
+  height:360px;
+  width:100%;
+  margin-top: 340px;
+  padding-bottom: 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.logobox{
+  background-color:hsl(228, 56%, 26%);
+  margin-left: 280px;
+  margin-top: 310px;
+  width: 300px;
+  height:140px;
+  border-radius: 3%;
+  border-top-right-radius: 33%;
+  position: absolute;
+}
+
+.logo-icon{
+  margin-left: 30px;
+  align:left;
+  margin-top: 30px;
+  height: 35px;
+}
+
+
+.input{
+  background-color:  hsl(229, 57%, 11%);
+  border: 0;
+  width: 40px;
+  height:40px;
+  border-radius:6px;
+  margin-left: 30px;
+  position: relative;
+
+}
+
+.icons{
+  width: 20px;
+  height: 15px;
+  margin-left: 10px;
+  margin-top:10px;
+}
+
+.measure-box{
+  background-color:hsl(228, 56%, 26%);
+  margin-left: 620px;
+  margin-top: 330px;
+  width: 500px;
+  height:120px;
+  border-radius: 3%;
+  position: absolute;
+}
+.text1{
+  margin-top:30px;
+  margin-left:30px;
+  position: absolute;
+}
+.progress-bar{
+  background: -webkit-linear-gradient(right,#FF4D97,#FFA399);
+}
+.box{
+  width: 150px;
+  height: 57px;
+  border-radius: 8px;
+  border-bottom-right-radius: 0;
+  margin-left:300px;
+  margin-top: -40px;
+  background: #fff;
+  text-align: center;
+  font-weight: 900;
+  color: hsl(229, 57%, 11%);
+  position: absolute;
+}
+.sb:before{
+  content: "";
+  position:absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #fff;
+  border-top:  10px solid #fff;
+  border-bottom: 10px solid transparent;
+  right: 0px;
+  top:56px;
+}
+
+.text2{
+  font-size:35px;
+  margin-left:-60px;
+  position:relative;
+  top:10px;
+}
+.bg-img2{
+  display: none;
+}
+.data{
+  margin-left: 70%;
+}
+.folder{
+  position:absolute;
+  margin-left:90px;
+}
+.upload{
+  position:absolute;
+  margin-left:150px;
+}
+@media only screen and (max-width: 375px) {
+
+  .bg-img1{
+    visibility:hidden;
+  }
+  .bg-img2{
+    display: block;
+    height:740px;
+    width:101%;
+    position: absolute;
+  }
+
+  .logobox{
+    margin-left: 20px;
+    margin-top: 120px;
+    width: 320px;
+    height:180px;
+    border-radius: 3%;
+    border-top-right-radius: 33%;
+    position: absolute;
+  }
+  .measure-box{
+    margin-left: 20px;
+    margin-top: 320px;
+    width: 320px;
+    height:140px;
+    border-radius: 3%;
+    position: absolute;
+  }
+  .attribution{
+    position: absolute;
+    margin-left: 80px;
+  }
+
+  .data{
+    margin-left: 62%;
+  }
+  .logo-icon{
+    height: 40px;
+    margin-left: 40px;
+  }
+  .input{
+    width: 42px;
+    height:42px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .folder{
+    margin-left: 100px;
+  }
+  .upload{
+    margin-left: 160px;
+  }
+  .box{
+    width: 155px;
+    height: 65px;
+    margin-left:80px;
+    margin-top: 120px;
+    border-bottom-right-radius:8px;
+    text-align: center;
+  }
+  .sb:before{
+    visibility:hidden;
+  }
+  .text1{
+    margin-top:25px;
+    margin-left:35px;
+    text-shadow: 0 0 10px rgba(0,0,0,0);
+
+  }
+}
